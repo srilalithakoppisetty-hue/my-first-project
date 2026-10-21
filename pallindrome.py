@@ -1,6 +1,6 @@
 text=input("Enter the text")
 cleaned_text=text.lower()
-reversed_text=cleaned_text
+reversed_text=cleaned_text[::-1]
 if reversed_text==cleaned_text:
   print(text,"is a pallindrome")
 else:
